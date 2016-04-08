@@ -27,7 +27,7 @@ application using a web frontend.
 The C++ code is compiled using CMake as follows:
 
 ```
- > cd build/
+ > cd C++/build/
  > cmake ../
  > make
  ```
