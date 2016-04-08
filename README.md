@@ -8,9 +8,12 @@ This choice is made primary because this is only a test application, and single-
 make the images very easy to display in the console, for debugging.
 
 As their name implies, TextImages are stored in text files with the following format:
-`<image width>`
-`<image height>`
-`<space-separated list of width*height pixel values>`
+
+```
+<image width>
+<image height>
+<space-separated list of width*height pixel values>
+```
 An example is given in C++/images/image.txt
 
 `TextImage` is used within the minimal `webfrontend` application. An image is read 
@@ -23,8 +26,9 @@ application using a web frontend.
 ## Installation
 The C++ code is compiled using CMake as follows:
 
-` > cd build/`
-` > cmake ../`
-` > make`
-
+```
+ > cd build/
+ > cmake ../
+ > make
+ ```
 
