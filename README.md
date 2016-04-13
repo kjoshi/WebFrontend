@@ -79,7 +79,7 @@ These are the steps I followed to compile Boost.Python on an Ubuntu 15.10 machin
 Download and extract the `boost` code:
 
 ```
- > export EXAMPLE_BOOST_DIR=/home/cuda/Work/Software/boost_test
+ > export EXAMPLE_BOOST_DIR=/home/username/example/path/to/boost
  > cd $EXAMPLE_BOOST_DIR
  > wget http://downloads.sourceforge.net/project/boost/boost/1.60.0/boost_1_60_0.tar.bz2
  > tar xf boost_1_60_0.tar.bz2
